@@ -1,0 +1,257 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.background {
+  position: relative;
+  height: 100%;
+  background-image: url('../imagens/capa.png'),
+  url('../imagens/ruido.png');
+  background-attachment: fixed;
+}
+
+.background:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(255, 0, 221) 6%, rgb(147, 0, 255) 100%);
+  opacity: 80%;
+  z-index: -1;
+}
+
+#topo {
+  background: rgb(0, 0, 0);
+  opacity: 70%;
+  padding: 10px 0;
+}
+
+#topo a {
+  color: rgba(255, 255, 255, 100%);
+}
+
+#topo nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+#topo img {
+  width: 11em;
+}
+
+#meio {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+}
+
+#meio h1 {
+  color: white;
+  font-size: 8em;
+  font-weight: 800;
+  width: 100%;
+  margin: 10px;
+}
+
+#botoes a {
+  font-size: 1em;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+#botoes a:first-child {
+  background: #240579af;
+  border: none !important;
+}
+
+#servicos {
+  margin-top: 200px;
+  padding: 20px 100px;
+}
+
+.imagens {
+  width: 300px;
+  margin: 0px 0px;
+}
+
+.imagens img {
+  max-width: 300px;
+  width: 90%;
+  margin: 10px 0;
+}
+
+#servicos h2,
+#servicos h3 {
+  color: rgb(107, 0, 128);
+  font-weight: 600;
+}
+
+#servicos h2 {
+  font-size: 4em;
+}
+
+#servicos h3 {
+  font-size: 2.5em;
+}
+
+#descobrir {
+  position: relative;
+  height: 100%;
+  background-image: url('../imagens/capa.png'),
+  url('../imagens/ruido.png');
+  background-attachment: fixed;
+}
+
+#descobrir:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(255, 0, 221) 6%, rgb(147, 0, 255) 100%);
+  opacity: 80%;
+  z-index: -1;
+}
+
+.rotacionar {
+  transform: rotate(30deg);
+  margin-top: 2em;
+  margin-left: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.rotacionar img {
+  margin: 10px;
+  width: 45%;
+}
+
+#textos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+}
+
+#textos h2 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+#textos h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#textos p {
+  font-weight: bold;
+}
+
+.txt-white {
+  color: white;
+}
+
+.txt-blue {
+  color: aquamarine
+}
+
+#rodape {
+  background-color: black;
+  align-items: center;
+  position: relative;
+}
+
+#rodape .icon-rodape img {
+  width: 10em;
+  margin-left: 50px;
+}
+
+#navegar {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.466);
+  font-size: .9em;
+  width: 90%;
+}
+
+#navegar li a {
+  color: white;
+}
+
+.redes {
+  flex-direction: row;
+  gap: 10px;
+}
+
+#redes-footer img {
+  height: 50px;
+  max-width: 5em;
+}
+
+@media screen and (max-width: 1100px) {
+  #servicos h2 {
+    font-size: 3em;
+  }
+
+  #servicos h3 {
+    font-size: 2em;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  #meio h1 {
+    font-size: 5em;
+  }
+
+  #servicos {
+    padding: -200;
+  }
+  
+  #servicos h2 {
+    font-size: 4em;
+  }
+
+  #phoneimg {
+    transform: rotate(0);
+    flex-direction: column;
+  }
+
+  #rodape {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #meio h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  #botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #servicos {
+    padding: 50px;
+  }
+
+  #servicos h2 {
+    font-size: 3.5em;
+  }
+
+  #navegar {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #redes-footer img {
+    height: 40px;
+    max-width: 5em;
+  }
+}
