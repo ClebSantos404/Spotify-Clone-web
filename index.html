@@ -48,15 +48,41 @@
       </header>
 
       <section id="meio" class="container d-flex">
-        <h1>Música para todos</h1>
-        <div id="botoes" class="">
-          <a href="#" class="btn btn-outline-light">
-            Aproveite o spotify free
-          </a>
-          <a href="#" class="btn btn-outline-light">
-            Obter spotify premium
-          </a>
-        </div>
+        
+        <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner pb-1">
+            <div class="carousel-item active">
+              <h1>Música para todos</h1>
+              <div id="botoes" class="d-flex justify-content-center">
+                <a href="#" class="btn btn-outline-light">
+                  Aproveite o spotify free
+                </a>
+                <a href="#" class="btn btn-outline-light ml-2">
+                  Obter spotify premium
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <h1>As melhores rádios</h1>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-outline-light botao">
+                  <i class="fa-solid fa-music"></i>
+                  Ouça agora
+                </a>
+              </div>
+            </div>
+          </div> 
+        </div> <!-- /inner -->
+        
+        <!-- controls -->
+        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev" >
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+
+        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next" >
+          <i class="fas fa-angle-right fa-3x"></i>
+        </a>
+
       </section>
 
       <section id="servicos" class="d-flex bg-white">
