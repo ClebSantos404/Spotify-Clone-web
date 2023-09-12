@@ -1,4 +1,4 @@
-![Logo of the project](https://scontent.xx.fbcdn.net/v/t1.15752-9/359677221_2175161242847573_6763602215947541747_n.png?stp=dst-png_p403x403&_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=aee45a&_nc_ohc=DQQWDwoheu0AX_2vQiV&_nc_oc=AQnAEKB_9ekLj0ViG5MS4fid11Hkrfj-dUl5xbNQSpM9IbXOkM-HKQIk-vtURLtqupDKjpRq-aaCqUHO9ddqStVc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQagy8RgwUwPX50CELh9JS05S8rpqQTG5A-CdZPXiUcNQ&oe=64F07F42)
+![Logo of the project](https://scontent.xx.fbcdn.net/v/t1.15752-9/375203107_6381349975307263_3633178976790620336_n.png?stp=dst-png_p851x315&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=x8cCYmK8UcsAX_TAflO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSfFbSAkHgoj0FsW6fPDie9f93UVPbS0GR3DLJaOBWE5g&oe=6527DA95)
 
 
 ## Spotify Web 
